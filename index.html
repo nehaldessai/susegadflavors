@@ -98,6 +98,47 @@
 
 <body>
   <!-- Header -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">Susegad<span>Flavors</span></div>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+          <li><a href="#about" class="nav-link" data-page="about">About</a></li>
+          <li><a href="#recipes" class="nav-link" data-page="recipes">Recipes</a></li>
+          <li><a href="#blog" class="nav-link" data-page="blog">Blog</a></li>
+          <li><a href="#gallery" class="nav-link" data-page="gallery">Gallery</a></li>
+          <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Page -->
+  <section id="home" class="page active">
+    <div class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Authentic Goan Recipes</h1>
+          <p>Discover the rich flavors of Goa with traditional recipes blending Portuguese & Indian influences</p>
+          <a href="#recipes" class="btn nav-link" data-page="recipes">Explore Recipes</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="section-title">Featured Recipes</h2>
+      <div class="recipes-grid" id="featured-recipes">
+        <!-- Featured recipes will be populated by JavaScript -->
+      </div>
+    </div>
+  </section>
   <div class="sib-form" style="text-align: center;
          background-color: #EFF2F7;                                 ">
   <div id="sib-form-container" class="sib-form-container">
@@ -174,47 +215,6 @@
   </div>
 </div>
   
-  <header>
-    <div class="container">
-      <nav class="navbar">
-        <div class="logo">Susegad<span>Flavors</span></div>
-        <ul class="nav-links">
-          <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
-          <li><a href="#about" class="nav-link" data-page="about">About</a></li>
-          <li><a href="#recipes" class="nav-link" data-page="recipes">Recipes</a></li>
-          <li><a href="#blog" class="nav-link" data-page="blog">Blog</a></li>
-          <li><a href="#gallery" class="nav-link" data-page="gallery">Gallery</a></li>
-          <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
-        </ul>
-        <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-navigation">
-
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Home Page -->
-  <section id="home" class="page active">
-    <div class="hero">
-      <div class="container">
-        <div class="hero-content">
-          <h1>Authentic Goan Recipes</h1>
-          <p>Discover the rich flavors of Goa with traditional recipes blending Portuguese & Indian influences</p>
-          <a href="#recipes" class="btn nav-link" data-page="recipes">Explore Recipes</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <h2 class="section-title">Featured Recipes</h2>
-      <div class="recipes-grid" id="featured-recipes">
-        <!-- Featured recipes will be populated by JavaScript -->
-      </div>
-    </div>
-  </section>
 
   <!-- About Page -->
   <section id="about" class="page">
